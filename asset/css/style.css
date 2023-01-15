@@ -1,0 +1,23 @@
+.draggable{
+    cursor: move;
+    user-select: none;
+    display: inline-block;
+}
+
+.clone-list {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    display: flex;
+}
+
+.dragging {
+    background: #fff;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    z-index: 999;
+}
+
+.placeholder {
+    background-color: #edf2f7;
+    border: 2px dashed #cbd5e0;
+}
